@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'shopping',
     environment: environment,
+    podModulePrefix: 'pod-example/pods',
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
